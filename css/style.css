@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.title{
+    font-family: 'Ephesis', cursive;
+}
+
+.header{
+    
+    background-repeat: none;
+    background-size: cover;
+    background-position: fixed;
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 221, 255, 1) 0%, rgba(238, 156, 167, 1) 90%);
+    
+    
+}
+
+@media only screen and (min-width: 992px){
+    .header{
+        background-image: url('/img/JillPrestonLarge.png');
+        min-height: 400px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width:991px) {
+    .header{
+        background-image: url('/img/JillPrestonSmall.png');
+        
+    }
+}
