@@ -1,7 +1,16 @@
+:root{
+    --jp-primaryColor: rgb(245,170,193);
+    --jp-secondaryColor:#a86378;
+    --formFocusColor: var(--jp-secondaryColor);
+    --formFocusShadowColor: rgba(255,100,172,0.5);
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+.form-control:focus{
+    border-color: var(--formFocusColor);
+    box-shadow: 0 0 0 .25rem var(--formFocusShadowColor);
+}
 .sticky-nav {
     position: fixed;
     left: 0;
