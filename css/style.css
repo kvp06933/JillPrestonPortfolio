@@ -32,6 +32,11 @@ body{
     
 }
 
+.btn-primary, .btn-primary:hover{
+    background-color: var(--jp-secondaryColor);
+    border-color: var(--jp-secondaryColor);
+}
+
 @media only screen and (min-width: 992px){
     .header{
         background-image: url('/img/JillPrestonLarge.png');
